@@ -1,0 +1,32 @@
+{
+  "name": "micro-rpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "micro",
+    "rpc",
+    "grpc"
+  ],
+  "author": "",
+  "license": "ISC",
+  "ava": {
+    "require": [
+      "async-to-gen/register"
+    ],
+    "files": [
+      "test.js"
+    ]
+  },
+  "dependencies": {
+    "grpc": "^1.0.1"
+  },
+  "devDependencies": {
+    "async-to-gen": "^1.3.0",
+    "ava": "^0.17.0",
+    "then-sleep": "^1.0.1"
+  }
+}
